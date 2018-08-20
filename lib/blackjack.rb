@@ -30,7 +30,7 @@ def initial_round
 	  return initial_round
 end
 
-	def hit?(card_total)
+def hit?(card_total)
 	  prompt_user
 	  player_input = get_user_input
 	    if player_input == "h"
@@ -41,13 +41,13 @@ end
 	    else
 	      invalid_command
 	    end
-	end
+end
 
 
-	def invalid_command
+def invalid_command
 	  puts "Please enter a valid command"
 	  get_user_input
-	end
+end
 
 
 	#####################################################
