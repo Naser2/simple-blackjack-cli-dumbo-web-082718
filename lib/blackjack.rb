@@ -32,11 +32,11 @@ end
 
 	def hit?(card_total)
 	  prompt_user
-	  user_input = get_user_input
-	    if user_input == "h"
+	  player_input = get_user_input
+	    if player_input == "h"
 	      card_total += deal_card
 	    elsif
-	      user_input == "s"
+	      player_input == "s"
 	      card_total
 	    else
 	      invalid_command
@@ -51,7 +51,7 @@ end
 
 
 	#####################################################
-	#above test to pass before coding runner below #
+	# All tests above passed before coding runner below #
 	#####################################################
 
 
