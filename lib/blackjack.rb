@@ -59,7 +59,7 @@ end
 	  cards_end = 21
 	  welcome
 	  card_total = initial_round
-	  until card_total > cards_end
+	 unless card_total > cards_end
 	   card_total = hit?(card_total)
 	    display_card_total(card_total)
 	  end
